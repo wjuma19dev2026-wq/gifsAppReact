@@ -8,7 +8,7 @@ import { RecentSearchingt } from "../RecentSearching/RecentSearchingt";
 // import { type Giphy } from '../../http/GetGiphy'
 import { useGifs } from "../../hooks/useGifs";
 
-const GiftApp = () => {
+export const GiftApp = () => {
 
   const { gifs, handlerAddPreviewTerms, handlerPreviewTerms, previewTerms } = useGifs()
 
@@ -42,4 +42,3 @@ const GiftApp = () => {
   ) 
 };
 
-export default GiftApp;
